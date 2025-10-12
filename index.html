@@ -1,1 +1,418 @@
-https://www.figma.com/proto/8qCwf304fT0dBcpwJUZQ6z/Untitled?node-id=29-3&p=f&t=2HJsGu76RZFTIuE1-0&scaling=min-zoom&content-scaling=fixed&page-id=29%3A2
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DesignHub - Мир дизайна</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="header-content">
+				<a href="#" class="logo"><i class="fas fa-palette"></i>DesignHub</a>
+				<nav>
+					<ul id="nav-menu">
+						<li><a href="#principles">Принципы</a></li>
+						<li><a href="#showcase">Галерея</a></li>
+						<li><a href="#process">Процесс</a></li>
+						<li><a href="#inspiration">Вдохновение</a></li>
+						<li><a href="#resources">Ресурсы</a></li>
+					</ul>
+					<button class="mobile-menu-btn" id="mobile-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!-- Hero Section -->
+	<section class="hero">
+		<div class="container">
+			<div class="hero-content">
+				<h1>Искусство дизайна меняет мир</h1>
+				<p>Откройте для себя красоту, функциональность и инновации в мире дизайна. Исследуйте, вдохновляйтесь и
+					создавайте.</p>
+				<div class="btn-group">
+					<a href="#showcase" class="btn">Исследовать</a>
+					<a href="#resources" class="btn btn-outline">Ресурсы</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Design Principles -->
+	<section class="section" id="principles">
+		<div class="container">
+			<div class="section-title">
+				<h2>Основные принципы дизайна</h2>
+				<p>Фундаментальные концепции, которые лежат в основе великолепного дизайна</p>
+			</div>
+			<div class="principles-grid">
+				<div class="principle-card">
+					<div class="principle-icon">
+						<i class="fas fa-balance-scale"></i>
+					</div>
+					<h3>Баланс</h3>
+					<p>Равномерное распределение визуального веса для создания гармонии и стабильности в композиции.</p>
+				</div>
+				<div class="principle-card">
+					<div class="principle-icon">
+						<i class="fas fa-layer-group"></i>
+					</div>
+					<h3>Контраст</h3>
+					<p>Использование противоположных элементов для создания визуального интереса и выделения важного.
+					</p>
+				</div>
+				<div class="principle-card">
+					<div class="principle-icon">
+						<i class="fas fa-retweet"></i>
+					</div>
+					<h3>Повторение</h3>
+					<p>Повторение визуальных элементов для создания единства, последовательности и укрепления бренда.
+					</p>
+				</div>
+				<div class="principle-card">
+					<div class="principle-icon">
+						<i class="fas fa-bezier-curve"></i>
+					</div>
+					<h3>Ритм</h3>
+					<p>Создание ощущения движения и направления с помощью повторяющихся или прогрессирующих элементов.
+					</p>
+				</div>
+				<div class="principle-card">
+					<div class="principle-icon">
+						<i class="fas fa-drafting-compass"></i>
+					</div>
+					<h3>Пропорция</h3>
+					<p>Отношение размеров элементов друг к другу и к целому для создания визуальной гармонии.</p>
+				</div>
+				<div class="principle-card">
+					<div class="principle-icon">
+						<i class="fas fa-unity"></i>
+					</div>
+					<h3>Единство</h3>
+					<p>Согласованность всех элементов дизайна, создающая целостное и завершенное впечатление.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Design Showcase -->
+	<section class="section showcase" id="showcase">
+		<div class="container">
+			<div class="section-title">
+				<h2>Галерея дизайна</h2>
+				<p>Вдохновляющие примеры выдающегося дизайна в различных областях</p>
+			</div>
+			<div class="showcase-filters">
+				<button class="filter-btn active" data-filter="all">Все</button>
+				<button class="filter-btn" data-filter="web">Веб-дизайн</button>
+				<button class="filter-btn" data-filter="graphic">Графика</button>
+				<button class="filter-btn" data-filter="product">Продуктовый</button>
+				<button class="filter-btn" data-filter="ux">UI/UX</button>
+			</div>
+			<div class="showcase-grid">
+				<div class="showcase-item" data-category="web">
+					<img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Веб-дизайн">
+					<div class="showcase-overlay">
+						<h3>Минималистичный веб-сайт</h3>
+						<p>Чистый дизайн с акцентом на контент</p>
+					</div>
+				</div>
+				<div class="showcase-item" data-category="graphic">
+					<img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Графический дизайн">
+					<div class="showcase-overlay">
+						<h3>Брендинг компании</h3>
+						<p>Фирменный стиль и айдентика</p>
+					</div>
+				</div>
+				<div class="showcase-item" data-category="product">
+					<img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Продуктовый дизайн">
+					<div class="showcase-overlay">
+						<h3>Упаковка продукта</h3>
+						<p>Экологичный дизайн упаковки</p>
+					</div>
+				</div>
+				<div class="showcase-item" data-category="ux">
+					<img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="UI/UX дизайн">
+					<div class="showcase-overlay">
+						<h3>Мобильное приложение</h3>
+						<p>Интуитивный пользовательский интерфейс</p>
+					</div>
+				</div>
+				<div class="showcase-item" data-category="web">
+					<img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Веб-дизайн">
+					<div class="showcase-overlay">
+						<h3>Портфолио сайт</h3>
+						<p>Креативный дизайн для творческого профессионала</p>
+					</div>
+				</div>
+				<div class="showcase-item" data-category="graphic">
+					<img src="https://images.unsplash.com/photo-1565688534245-05d6b5be184a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Графический дизайн">
+					<div class="showcase-overlay">
+						<h3>Типографика</h3>
+						<p>Эксперименты со шрифтами и композицией</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Design Process -->
+	<section class="section" id="process">
+		<div class="container">
+			<div class="section-title">
+				<h2>Процесс дизайна</h2>
+				<p>Системный подход к созданию эффективных дизайн-решений</p>
+			</div>
+			<div class="process-steps">
+				<div class="process-step">
+					<div class="step-number">1</div>
+					<h3>Исследование</h3>
+					<p>Анализ потребностей пользователей и целей проекта</p>
+				</div>
+				<div class="process-step">
+					<div class="step-number">2</div>
+					<h3>Концепция</h3>
+					<p>Разработка идей и создание первоначальных набросков</p>
+				</div>
+				<div class="process-step">
+					<div class="step-number">3</div>
+					<h3>Прототипирование</h3>
+					<p>Создание интерактивных макетов для тестирования</p>
+				</div>
+				<div class="process-step">
+					<div class="step-number">4</div>
+					<h3>Реализация</h3>
+					<p>Разработка финального дизайна и его внедрение</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Inspiration -->
+	<section class="section inspiration" id="inspiration">
+		<div class="container">
+			<div class="section-title">
+				<h2>Вдохновение</h2>
+				<p>Мысли великих дизайнеров о сути и значении дизайна</p>
+			</div>
+			<div class="quote-slider">
+				<div class="quote active">
+					<div class="quote-text">
+						"Дизайн — это не просто как он выглядит и воспринимается. Дизайн — это как он работает."
+					</div>
+					<div class="quote-author">Стив Джобс</div>
+					<div class="quote-role">Сооснователь Apple</div>
+				</div>
+				<div class="quote">
+					<div class="quote-text">
+						"Хороший дизайн очевиден. Великий дизайн прозрачен."
+					</div>
+					<div class="quote-author">Джо Спарано</div>
+					<div class="quote-role">Дизайнер и автор</div>
+				</div>
+				<div class="quote">
+					<div class="quote-text">
+						"Дизайн создает культуру. Культура формирует ценности. Ценности определяют будущее."
+					</div>
+					<div class="quote-author">Роберт Л. Питерс</div>
+					<div class="quote-role">Дизайнер и консультант</div>
+				</div>
+				<div class="slider-controls">
+					<div class="slider-dot active" data-slide="0"></div>
+					<div class="slider-dot" data-slide="1"></div>
+					<div class="slider-dot" data-slide="2"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Resources -->
+	<section class="section" id="resources">
+		<div class="container">
+			<div class="section-title">
+				<h2>Ресурсы для дизайнеров</h2>
+				<p>Полезные материалы, инструменты и источники вдохновения</p>
+			</div>
+			<div class="resources-grid">
+				<div class="resource-card">
+					<div class="resource-image">
+						<img src="https://images.unsplash.com/photo-1555099962-419945c0dce0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Инструменты дизайна">
+                    </div>
+						<div class="resource-content">
+							<h3>Современные инструменты дизайна</h3>
+							<div class="resource-meta">
+								<span><i class="far fa-clock"></i> 10 мин чтения</span>
+								<span><i class="far fa-calendar"></i> 15 мая 2023</span>
+							</div>
+							<p>Обзор лучших программ и приложений для дизайнеров в 2023 году.</p>
+						</div>
+					</div>
+					<div class="resource-card">
+						<div class="resource-image">
+							<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Цвет в дизайне">
+                    </div>
+							<div class="resource-content">
+								<h3>Психология цвета в дизайне</h3>
+								<div class="resource-meta">
+									<span><i class="far fa-clock"></i> 8 мин чтения</span>
+									<span><i class="far fa-calendar"></i> 2 мая 2023</span>
+								</div>
+								<p>Как цвет влияет на восприятие и поведение пользователей.</p>
+							</div>
+						</div>
+						<div class="resource-card">
+							<div class="resource-image">
+								<img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Типографика">
+                    </div>
+								<div class="resource-content">
+									<h3>Искусство типографики</h3>
+									<div class="resource-meta">
+										<span><i class="far fa-clock"></i> 12 мин чтения</span>
+										<span><i class="far fa-calendar"></i> 24 апреля 2023</span>
+									</div>
+									<p>Основные принципы работы со шрифтами и текстом в дизайне.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-column">
+					<h3>DesignHub</h3>
+					<p>Исследуем мир дизайна, делимся знаниями и вдохновляем на творчество.</p>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-vk"></i></a>
+						<a href="#"><i class="fab fa-telegram"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-behance"></i></a>
+					</div>
+				</div>
+				<div class="footer-column">
+					<h3>Разделы</h3>
+					<ul class="footer-links">
+						<li><a href="#principles">Принципы дизайна</a></li>
+						<li><a href="#showcase">Галерея</a></li>
+						<li><a href="#process">Процесс</a></li>
+						<li><a href="#inspiration">Вдохновение</a></li>
+						<li><a href="#resources">Ресурсы</a></li>
+					</ul>
+				</div>
+				<div class="footer-column">
+					<h3>Типы дизайна</h3>
+					<ul class="footer-links">
+						<li><a href="#">Веб-дизайн</a></li>
+						<li><a href="#">Графический дизайн</a></li>
+						<li><a href="#">UI/UX дизайн</a></li>
+						<li><a href="#">Продуктовый дизайн</a></li>
+						<li><a href="#">Дизайн интерьеров</a></li>
+					</ul>
+				</div>
+				<div class="footer-column">
+					<h3>Контакты</h3>
+					<ul class="footer-links">
+						<li><a href="mailto:hello@designhub.ru">hello@designhub.ru</a></li>
+						<li><a href="#">г. Москва, ул. Дизайнеров, 15</a></li>
+						<li><a href="#">+7 (495) 123-45-67</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2023 DesignHub. Все права защищены.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		// Mobile Menu Toggle
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+
+        // Portfolio Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const showcaseItems = document.querySelectorAll('.showcase-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filterValue = button.getAttribute('data-filter');
+                
+                showcaseItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Testimonials Slider
+        const quotes = document.querySelectorAll('.quote');
+        const sliderDots = document.querySelectorAll('.slider-dot');
+        let currentSlide = 0;
+
+        function showSlide(n) {
+            quotes.forEach(quote => quote.classList.remove('active'));
+            sliderDots.forEach(dot => dot.classList.remove('active'));
+            
+            quotes[n].classList.add('active');
+            sliderDots[n].classList.add('active');
+            currentSlide = n;
+        }
+
+        sliderDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                const slideIndex = parseInt(dot.getAttribute('data-slide'));
+                showSlide(slideIndex);
+            });
+        });
+
+        // Auto slide change
+        setInterval(() => {
+            let nextSlide = (currentSlide + 1) % quotes.length;
+            showSlide(nextSlide);
+        }, 5000);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    navMenu.classList.remove('show');
+                }
+            });
+        });
+	</script>
+</body>
+
+</html>
